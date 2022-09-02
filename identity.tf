@@ -30,9 +30,9 @@ resource "okta_user_schema_property" DOB_extension{
    master="PROFILE_MASTER"
 }
 
-resource "okta_group" "example" {
-  name        = "Example"
-  description = "My Example Group"
+resource "okta_group" "example123" {
+  name        = "Example123"
+  description = "My Example Group123"
 }
 resource "okta_group" "testmyterraformgroup" {
   name        = "testmyterraformgroup"
