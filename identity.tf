@@ -23,12 +23,7 @@ resource "okta_user_schema_property" "passport_extension" {
   type   = "string"
   master = "PROFILE_MASTER"
 }
-resource "okta_user_schema_property" DOB_extension{
-   index="date_of_birth"
-   title="Date Of Birth"
-   type= "string"
-   master="PROFILE_MASTER"
-}
+
 
 resource "okta_group" "example123" {
   name        = "Example123"
