@@ -17,7 +17,7 @@ provider "okta" {
     base_url = var.base_url
     api_token = var.api_token
 }
-resource "okta_user_schema_property" "passport_extension" {
+resource "okta_user_schema_property" "passport" {
   index  = "passport"
   title  = "Passport"
   type   = "string"
