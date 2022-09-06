@@ -29,7 +29,4 @@ resource "okta_group" "example123" {
   name        = "Example123"
   description = "My Example Group123"
 }
-resource "okta_group" "testmyterraformgroup" {
-  name        = "testmyterraformgroup"
-  description = "Testing Terraform Group"
-}
+
