@@ -26,3 +26,11 @@ resource "okta_group" "testmyterraformgroup123" {
   description = "Testing Terraform Group123"
 }
 
+resource "okta_auth_server" "ExampleServer" {
+  audiences   = ["api://example"]
+  description = "My Example Auth Server"
+  name        = "example"
+  issuer_mode = "ORG_URL"
+  status      = "ACTIVE"
+}
+
