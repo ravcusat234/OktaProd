@@ -1,3 +1,6 @@
+
+
+
 resource "okta_app_swa" "SWAappUsingTF" {
   label          = "SWAappUsingTF"
   button_field   = "login"
@@ -6,3 +9,5 @@ resource "okta_app_swa" "SWAappUsingTF" {
   url            = "https://login.splunk.com"
   accessibility_self_service= "true"
 }
+
+
