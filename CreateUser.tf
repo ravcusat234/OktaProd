@@ -1,5 +1,5 @@
 resource "okta_user" "UserCreateUsingTF" {
-  admin_roles = ["USER_ADMIN"]
+  okta_user_admin_roles = ["USER_ADMIN"]
   first_name  = "TF1"
   last_name   = "User"
   login       = "TF1@mailinatorcom"
